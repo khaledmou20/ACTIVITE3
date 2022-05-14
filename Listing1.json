@@ -1,0 +1,16 @@
+{     
+     authors: [
+       {
+         'repeat(100)': {
+           id: '{{index(1)}}',
+           INSPIRE_number: 'INSPIRE_{{integer("00000000")}}',
+           affiliation: '{{company()}}',
+           name:{
+              first_name: '{{firstName()}}',
+              last_name: '{{surname()}}',
+            },
+           title: '{{street()}}'  
+     }
+    }
+  ]
+}
